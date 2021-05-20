@@ -1,6 +1,5 @@
 import { Route, Redirect } from "react-router-dom";
 import { useAuthenticated } from "../../hooks/useAuth"
-import {LoginError} from "../../hooks/useErrors";
 import {ToastContainer} from "react-toastify";
 
 function PrivateRoute({
@@ -10,7 +9,6 @@ function PrivateRoute({
   children: JSX.Element | JSX.Element[];
 }) {
   const isAuthenticated = useAuthenticated();
-  const error = LoginError();
 
   return (
     <>
@@ -23,7 +21,7 @@ function PrivateRoute({
           <Redirect
             to={{
               pathname: "/profile",
-              state: { from: location, error },
+              state: { from: location},
             }}
           />
         )

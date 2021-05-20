@@ -2,7 +2,7 @@ import {useState} from "react";
 import { Redirect } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { logIn } from "../../redux/actions/authActions";
-import { Credentials, getToken } from "../../api/auth";
+import { Credentials, getToken } from "../../api/types/auth";
 import { useAuthenticated } from "../../hooks/useAuth";
 import "../../pages/auth/LoginPage.css";
 import { Profile, Form, LoginWrapper, Break, LoginButton} from "../../styles/Auth.styled";

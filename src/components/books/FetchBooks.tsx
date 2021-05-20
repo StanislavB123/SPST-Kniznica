@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { IBook } from "../../api/types";
+import { IBook } from "../../api/types/globalTypes";
 import * as bookService from "../../api/services/BookService";
 import { BookDiv, BooksPages, BookImage, BooksHeader, BookButton, BookP, BookHead } from "../../styles/Books.styled";
 import { Grid, Paper, Button } from "@material-ui/core";

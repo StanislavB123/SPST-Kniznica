@@ -36,11 +36,6 @@ import {
     {
       label: "Prihlásenie Učiteľ",
       href: "/login"
-    },
-
-    {
-      label: "Prihlásenie Žiak",
-      href: "/login/student"
     }
   ];
   

@@ -15,7 +15,7 @@ export interface ICategory {
 
 export interface PROPS_AUTHEN {
     email: string;
-    password: string; 
+    password: string;
 }
 
 export interface PROPS_PROFILE {

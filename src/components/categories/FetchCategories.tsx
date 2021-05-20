@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ICategory } from "../../api/types";
+import { ICategory } from "../../api/types/globalTypes";
 import * as categoriesService from "../../api/services/CategoriesService";
 import {CategoriesPage, CategoryDiv} from "../../styles/Categories.styled";
 import {Grid, Paper} from "@material-ui/core";
