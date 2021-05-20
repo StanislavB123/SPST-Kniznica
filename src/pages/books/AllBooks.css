@@ -1,0 +1,19 @@
+.all {
+    margin-top: 6rem !important;
+}
+
+.papercategory {
+    width: 100% !important;
+}
+
+.closeBtn {
+    background-color: red !important;
+    color: #eee !important;
+    font-size: 0.9rem !important
+}
+
+.borrowBtn {
+    background-color: green !important;
+    color: #eee !important;
+    font-size: 0.9rem !important
+}

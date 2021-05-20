@@ -1,0 +1,25 @@
+.info {
+    margin-top: 6rem !important;
+}
+
+@media(max-width: 1039px) {
+    .info {
+        margin-top: 8rem !important;
+    }
+}
+
+@media(max-width: 1031px) {
+    .info {
+        margin-top: 7rem !important;
+    }
+}
+@media(max-width: 1015px) {
+    .info {
+        margin-top: 7rem !important;
+    }
+}
+@media(max-width: 245px) {
+    .info {
+        margin-top:  8rem !important;
+    }
+}
