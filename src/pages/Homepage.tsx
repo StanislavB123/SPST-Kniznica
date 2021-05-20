@@ -11,8 +11,9 @@ function Homepage() {
                     <LoginButtonLink>Chcem sa prihlásiť</LoginButtonLink>
                 </LoginButton>
                 <SchollButton>
-                    <SchollButtonLink>Návrat na školskú stránku</SchollButtonLink>
+                    <SchollButtonLink>Návrat s5</SchollButtonLink>
                 </SchollButton>
+                
             </Buttons>
         </div>
     )
